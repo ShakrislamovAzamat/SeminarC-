@@ -31,8 +31,8 @@
 
 
 // Task4. На вход принимаем трехзначное число. Вывести последнюю цифру данного числа
-Console.WriteLine("Input Three-digit number: ");
-int n = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Input Three-digit number: ");
+// int n = Convert.ToInt32(Console.ReadLine());
 
-int ed = n % 10;
-Console.WriteLine($"Last digit of {n} -> {ed}");
+// int ed = n % 10;
+// Console.WriteLine($"Last digit of {n} -> {ed}");
