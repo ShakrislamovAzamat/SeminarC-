@@ -27,7 +27,16 @@
 
 // Task3. Напишите программу, которая принимает на вход число n,
 // а на выходе получаем последовательность от -n до n
-// 
+// Console.Write("Input number: ");
+// int n = Convert.ToInt32(Console.ReadLine());
+// int count = -n;
+// while (count <= n)
+// {
+//     Console.Write(count);
+//     Console.Write(" ");
+//     count++;
+// }
+
 
 
 // Task4. На вход принимаем трехзначное число. Вывести последнюю цифру данного числа
