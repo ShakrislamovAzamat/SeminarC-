@@ -65,11 +65,8 @@ int FindCount(int[] array, int minValue, int maxValue) // нахождение �
     int count = 0;
     for (int i = 0; i < array.Length; i++)
     {
-        if (array[i] >= minValue)
-        {
-            if (array[i] <= maxValue)
-            count ++;
-        }
+        if (array[i] >= minValue && array[i] <= maxValue)
+        count ++;
     }
     return count;
 }
